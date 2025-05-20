@@ -1,0 +1,36 @@
+.box {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.box h3 {
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+
+/* Màu từng box */
+.box-blue {
+    background-color: #4b5f74;
+}
+
+.box-green {
+    background-color: #28a745;
+}
+
+.box-yellow {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.box-red {
+    background-color: #dc3545;
+}

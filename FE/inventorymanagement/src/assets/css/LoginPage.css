@@ -1,0 +1,117 @@
+
+.loginpage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background:
+        linear-gradient(rgba(44, 62, 80, 0.85), rgba(76, 161, 175, 0.85)),
+        url('https://cdn.prod.website-files.com/6193d546dfb64eec20323f4a/6470aeb8b5ddc9c1021d860f_banner%20gestion%20stocks.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    .container {
+        max-width: 350px;
+        height: 100vh;
+        max-height: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        background: rgba(44, 62, 80, 0.75);
+        border-radius: 15px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 20px;
+        user-select: none;
+    }
+
+    .logo svg {
+        width: 40px;
+        height: 40px;
+        fill: #4CA1AF;
+    }
+
+    .logo h1 {
+        font-weight: 700;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        color: #E0F7FA;
+    }
+
+    .login-card h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #E0F7FA;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: 0.95rem;
+        margin-bottom: 5px;
+        color: #B2EBF2;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        padding: 12px 15px;
+        border-radius: 8px;
+        border: none;
+        margin-bottom: 18px;
+        font-size: 1rem;
+        outline: none;
+        transition: background-color 0.3s ease;
+        background-color: rgba(255, 255, 255, 0.15);
+        color: #E0F7FA;
+    }
+
+    input::placeholder {
+        color: #B2EBF2;
+    }
+
+    input:focus {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    button {
+        padding: 14px;
+        border-radius: 8px;
+        border: none;
+        background: #4CA1AF;
+        color: white;
+        font-weight: 700;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background-color 0.25s ease;
+    }
+
+    button:hover {
+        background: #32a1b9;
+    }
+
+    .footer-text {
+        margin-top: 20px;
+        font-size: 0.85rem;
+        text-align: center;
+        color: #A7D8DE;
+    }
+   
+}
+
+@media (max-width: 370px) {
+    .container {
+        padding: 15px;
+        max-width: 90vw;
+        border-radius: 12px;
+    }
+}

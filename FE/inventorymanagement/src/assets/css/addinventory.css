@@ -1,0 +1,22 @@
+ .table{
+    margin-top: 20px;
+    
+}
+ .table thead th{
+    background-color: #EEF2F7;
+    color: #313A46;
+    font-family: "Nunito Sans", sans-serif;
+    white-space: nowrap;
+}
+ .table tbody tr td{
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+}
+ .table thead td ~ i{
+
+    font-size: 15px;
+}
+.badge-danger-lighten {
+   /* color: #fa5c7c; */
+   
+}

@@ -1,0 +1,36 @@
+
+.customer .page-title-box {
+    padding: 10px 0;
+}
+
+.customer .page-title-box .page-title{
+    color: #2F5678;
+    font-size: 12xp;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shadow-sm.bg-white.rounded.card {
+    border: 1px;
+}
+.customer .table{
+    margin-top: 20px;
+    
+}
+.customer .table thead th{
+    background-color: #EEF2F7;
+    color: #313A46;
+    font-family: "Nunito Sans", sans-serif;
+    white-space: nowrap;
+}
+.customer .table tbody tr td{
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+}
+.customer .table thead td ~ i{
+
+    font-size: 15px;
+}
+.badge-danger-lighten {
+   /* color: #fa5c7c; */
+   
+}
